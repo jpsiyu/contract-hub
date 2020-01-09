@@ -1,6 +1,8 @@
 const assert = require('chai').assert
 const LandWar = artifacts.require("LandWar")
 
+const zero = "0x0000000000000000000000000000000000000000"
+
 contract("LandWar", accounts => {
   let instance
   beforeEach(() => {
@@ -11,11 +13,11 @@ contract("LandWar", accounts => {
   })
 
   describe("base operations", () => {
+
     it("has ownner", () => {
       return instance.owner.call()
         .then(owner => {
-          //assert(owner != 0)
-          assert.should.not.equal(owner, 0)
+          assert.notEqual(owner, zero)
         })
     })
   })

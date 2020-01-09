@@ -4,7 +4,7 @@ contract LandWar{
   address public owner;
 
   constructor() public {
-    //owner = msg.sender;
+    owner = msg.sender;
   }
 
 }
