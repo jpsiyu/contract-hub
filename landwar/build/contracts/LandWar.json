@@ -2,18 +2,11 @@
   "contractName": "LandWar",
   "abi": [
     {
-      "inputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "constructor"
-    },
-    {
       "constant": true,
       "inputs": [],
       "name": "owner",
       "outputs": [
         {
-          "internalType": "address",
           "name": "",
           "type": "address"
         }
@@ -21,23 +14,29 @@
       "payable": false,
       "stateMutability": "view",
       "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/stephen/develop/blockchain/contract-hub/landwar/contracts/LandWar.sol\":\"LandWar\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/stephen/develop/blockchain/contract-hub/landwar/contracts/LandWar.sol\":{\"keccak256\":\"0xf179eafbdb4c3414e9be8c5d62251e2fa5c2cc817daf912a3b69e05a9bffe6bf\",\"urls\":[\"bzz-raw://a5cdf8c898241446c6aa7c97dcc6f93d10e0cdfde40bdd78d7a56cf11de7ea0f\",\"dweb:/ipfs/QmTjgosekkTEDrvG1wpzGAGYXmxDnEi5p5hGz6nkDLrkVg\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555060cf8061005f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638da5cb5b14602d575b600080fd5b60336075565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fea265627a7a723158202b8b4cd6f6825f38e611ecf745b54894ad2a767bdcd411c859bb95b83684f6c764736f6c634300050c0032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80638da5cb5b14602d575b600080fd5b60336075565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fea265627a7a723158202b8b4cd6f6825f38e611ecf745b54894ad2a767bdcd411c859bb95b83684f6c764736f6c634300050c0032",
-  "sourceMap": "34:98:0:-;;;79:50;8:9:-1;5:2;;;30:1;27;20:12;5:2;79:50:0;114:10;106:5;;:18;;;;;;;;;;;;;;;;;;34:98;;;;;;",
-  "deployedSourceMap": "34:98:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:98:0;;;;;;;;;;;;;;;;;;;54:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity >=0.4.21 <0.7.0;\n\ncontract LandWar{\n  address public owner;\n\n  constructor() public {\n    owner = msg.sender;\n  }\n\n}\n",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/stephen/develop/blockchain/contract-hub/landwar/contracts/LandWar.sol\":\"LandWar\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/stephen/develop/blockchain/contract-hub/landwar/contracts/LandWar.sol\":{\"keccak256\":\"0x61ecdf4bbaf42b80f4de94bae4986ac933ef798ae4191483fdf4db43a73c6730\",\"urls\":[\"bzzr://a186255e95db839a006d088acd3e6afc47ed70cfa1d49925faf8a2ed368fc649\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060c68061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638da5cb5b14602d575b600080fd5b60336075565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fea165627a7a72305820fb4e35c71e3079f3af7a219f98c8bbb921e3c9a9d7e50d4d1b6c6fbffcb999b10029",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80638da5cb5b14602d575b600080fd5b60336075565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fea165627a7a72305820fb4e35c71e3079f3af7a219f98c8bbb921e3c9a9d7e50d4d1b6c6fbffcb999b10029",
+  "sourceMap": "34:100:0:-;;;79:52;8:9:-1;5:2;;;30:1;27;20:12;5:2;79:52:0;34:100;;;;;;",
+  "deployedSourceMap": "34:100:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:100:0;;;;;;;;;;;;;;;;;;;54:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity >=0.4.21 <0.7.0;\n\ncontract LandWar{\n  address public owner;\n\n  constructor() public {\n    //owner = msg.sender;\n  }\n\n}\n",
   "sourcePath": "/Users/stephen/develop/blockchain/contract-hub/landwar/contracts/LandWar.sol",
   "ast": {
     "absolutePath": "/Users/stephen/develop/blockchain/contract-hub/landwar/contracts/LandWar.sol",
     "exportedSymbols": {
       "LandWar": [
-        13
+        8
       ]
     },
-    "id": 14,
+    "id": 9,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -60,9 +59,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 13,
+        "id": 8,
         "linearizedBaseContracts": [
-          13
+          8
         ],
         "name": "LandWar",
         "nodeType": "ContractDefinition",
@@ -72,7 +71,7 @@
             "id": 3,
             "name": "owner",
             "nodeType": "VariableDeclaration",
-            "scope": 13,
+            "scope": 8,
             "src": "54:20:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -96,76 +95,13 @@
           },
           {
             "body": {
-              "id": 11,
+              "id": 6,
               "nodeType": "Block",
-              "src": "100:29:0",
-              "statements": [
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 9,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "argumentTypes": null,
-                      "id": 6,
-                      "name": "owner",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 3,
-                      "src": "106:5:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address",
-                        "typeString": "address"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "=",
-                    "rightHandSide": {
-                      "argumentTypes": null,
-                      "expression": {
-                        "argumentTypes": null,
-                        "id": 7,
-                        "name": "msg",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 85,
-                        "src": "114:3:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_magic_message",
-                          "typeString": "msg"
-                        }
-                      },
-                      "id": 8,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "lValueRequested": false,
-                      "memberName": "sender",
-                      "nodeType": "MemberAccess",
-                      "referencedDeclaration": null,
-                      "src": "114:10:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address_payable",
-                        "typeString": "address payable"
-                      }
-                    },
-                    "src": "106:18:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "id": 10,
-                  "nodeType": "ExpressionStatement",
-                  "src": "106:18:0"
-                }
-              ]
+              "src": "100:31:0",
+              "statements": []
             },
             "documentation": null,
-            "id": 12,
+            "id": 7,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -183,27 +119,27 @@
               "parameters": [],
               "src": "100:0:0"
             },
-            "scope": 13,
-            "src": "79:50:0",
+            "scope": 8,
+            "src": "79:52:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 14,
-        "src": "34:98:0"
+        "scope": 9,
+        "src": "34:100:0"
       }
     ],
-    "src": "0:133:0"
+    "src": "0:135:0"
   },
   "legacyAST": {
     "absolutePath": "/Users/stephen/develop/blockchain/contract-hub/landwar/contracts/LandWar.sol",
     "exportedSymbols": {
       "LandWar": [
-        13
+        8
       ]
     },
-    "id": 14,
+    "id": 9,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -226,9 +162,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 13,
+        "id": 8,
         "linearizedBaseContracts": [
-          13
+          8
         ],
         "name": "LandWar",
         "nodeType": "ContractDefinition",
@@ -238,7 +174,7 @@
             "id": 3,
             "name": "owner",
             "nodeType": "VariableDeclaration",
-            "scope": 13,
+            "scope": 8,
             "src": "54:20:0",
             "stateVariable": true,
             "storageLocation": "default",
@@ -262,76 +198,13 @@
           },
           {
             "body": {
-              "id": 11,
+              "id": 6,
               "nodeType": "Block",
-              "src": "100:29:0",
-              "statements": [
-                {
-                  "expression": {
-                    "argumentTypes": null,
-                    "id": 9,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": false,
-                    "lValueRequested": false,
-                    "leftHandSide": {
-                      "argumentTypes": null,
-                      "id": 6,
-                      "name": "owner",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 3,
-                      "src": "106:5:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address",
-                        "typeString": "address"
-                      }
-                    },
-                    "nodeType": "Assignment",
-                    "operator": "=",
-                    "rightHandSide": {
-                      "argumentTypes": null,
-                      "expression": {
-                        "argumentTypes": null,
-                        "id": 7,
-                        "name": "msg",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 85,
-                        "src": "114:3:0",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_magic_message",
-                          "typeString": "msg"
-                        }
-                      },
-                      "id": 8,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": false,
-                      "lValueRequested": false,
-                      "memberName": "sender",
-                      "nodeType": "MemberAccess",
-                      "referencedDeclaration": null,
-                      "src": "114:10:0",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_address_payable",
-                        "typeString": "address payable"
-                      }
-                    },
-                    "src": "106:18:0",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_address",
-                      "typeString": "address"
-                    }
-                  },
-                  "id": 10,
-                  "nodeType": "ExpressionStatement",
-                  "src": "106:18:0"
-                }
-              ]
+              "src": "100:31:0",
+              "statements": []
             },
             "documentation": null,
-            "id": 12,
+            "id": 7,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -349,22 +222,22 @@
               "parameters": [],
               "src": "100:0:0"
             },
-            "scope": 13,
-            "src": "79:50:0",
+            "scope": 8,
+            "src": "79:52:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 14,
-        "src": "34:98:0"
+        "scope": 9,
+        "src": "34:100:0"
       }
     ],
-    "src": "0:133:0"
+    "src": "0:135:0"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.5.12+commit.7709ece9.Emscripten.clang"
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
   },
   "networks": {
     "5777": {
@@ -375,7 +248,7 @@
     }
   },
   "schemaVersion": "3.0.13",
-  "updatedAt": "2020-01-09T04:01:41.447Z",
+  "updatedAt": "2020-01-09T05:47:35.746Z",
   "devdoc": {
     "methods": {}
   },
